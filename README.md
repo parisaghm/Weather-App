@@ -68,3 +68,14 @@ npm run build
 ├── package.json          # Project metadata and dependencies
 └── README.md             # Project documentation
 ```
+
+# Key Components
+
+- SearchBox.vue: A search box to input the city name and trigger the weather search.
+- WeatherDisplay.vue: Displays detailed weather information, including temperature, humidity, and wind speed.
+- WeatherInfo.vue: Shows the current day, date, and summary of the weather.
+
+# Customization
+
+- You can customize the background images by replacing or updating the styles mapped to weather conditions in App.vue. For example, you can change the backgrounds for rain, snow, etc. in the backgroundMap object.
+- Modify the WeatherDisplay.vue and WeatherInfo.vue components to add more weather details or change the display format.
