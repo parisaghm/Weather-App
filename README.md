@@ -21,8 +21,26 @@ This is a weather application built with Vue 3, which allows users to search for
 
 
 ## Project setup
+
+1. Clone the repository:
+
+```
+git clone https://github.com/your-username/vue-weather-app.git
+cd vue-weather-app
+```
+2. Install dependencies:
+   
 ```
 npm install
+```
+
+3. Add your OpenWeatherMap API key:
+4. 
+The app uses the OpenWeatherMap API to fetch weather data. You'll need to get a free API key from OpenWeatherMap.
+Once you have your API key, replace the placeholder apiKey in App.vue with your actual API key:
+
+```
+const apiKey = 'YOUR_API_KEY'; // Replace this with your OpenWeatherMap API key
 ```
 
 ### Compiles and hot-reloads for development
