@@ -3,7 +3,7 @@ This is a weather application built with Vue 3, which allows users to search for
 
 ![Weather](https://github.com/user-attachments/assets/383cd880-8530-4a71-ac06-51dce5590edc)
 
-#Features
+# Features
 
 - Search weather information by city name.
 - Display current temperature, humidity, wind speed, and more.
