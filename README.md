@@ -14,10 +14,10 @@ This is a weather application built with Vue 3, which allows users to search for
 
 # Technologies Used
 
-- # Vue 3: The app is built with the latest version of Vue for creating reactive components.
-- # TailwindCSS: Used for styling the UI with minimal custom CSS.
-- # Axios: To make HTTP requests to the OpenWeatherMap API.
-- # OpenWeatherMap API: For fetching real-time weather data.
+- Vue 3: The app is built with the latest version of Vue for creating reactive components.
+- TailwindCSS: Used for styling the UI with minimal custom CSS.
+- Axios: To make HTTP requests to the OpenWeatherMap API.
+- OpenWeatherMap API: For fetching real-time weather data.
 
 
 ## Project setup
