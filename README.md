@@ -35,7 +35,7 @@ npm install
 ```
 
 3. Add your OpenWeatherMap API key:
-4. 
+
 The app uses the OpenWeatherMap API to fetch weather data. You'll need to get a free API key from OpenWeatherMap.
 Once you have your API key, replace the placeholder apiKey in App.vue with your actual API key:
 
@@ -43,20 +43,28 @@ Once you have your API key, replace the placeholder apiKey in App.vue with your 
 const apiKey = 'YOUR_API_KEY'; // Replace this with your OpenWeatherMap API key
 ```
 
-### Compiles and hot-reloads for development
+4. Run the app:
 ```
 npm run serve
 ```
+
+The app will now be running on http://localhost:8080.
 
 ### Compiles and minifies for production
 ```
 npm run build
 ```
 
-### Lints and fixes files
-```
-npm run lint
-```
+# Project Structure
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+```
+.
+├── public                # Static assets
+├── src
+│   ├── assets            # App-specific assets like images and fonts
+│   ├── components        # Vue components (SearchBox, WeatherDisplay, WeatherInfo)
+│   ├── App.vue           # Main app component
+│   ├── main.js           # Entry point for Vue app
+├── package.json          # Project metadata and dependencies
+└── README.md             # Project documentation
+```
