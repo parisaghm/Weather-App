@@ -1,5 +1,8 @@
 # weather-app
 This is a weather application built with Vue 3, which allows users to search for real-time weather information by city. The app fetches data from the OpenWeatherMap API and displays it in an elegant and responsive UI, with dynamic backgrounds based on the weather conditions.
+
+![90](https://github.com/user-attachments/assets/2321a955-b69d-4715-89f6-a91fccce6c28)
+
 ## Project setup
 ```
 npm install
